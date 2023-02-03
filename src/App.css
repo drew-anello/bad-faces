@@ -12,3 +12,23 @@ ul, li {
     justify-content: center;
     margin-right: 5%;
 }
+li, a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15%;
+}
+
+.footer a {
+    display: inline-block;
+}
+
+.footer img {
+    width: 40%;
+    height: 100%;
+}
