@@ -1,0 +1,14 @@
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 2%;
+  }
+li, a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-family:  "Rock Salt", cursive, Arial, sans-serif;;
+}

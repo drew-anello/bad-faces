@@ -3,20 +3,6 @@ body {
     width: 100%;
 }
 
-nav, ul {
-    margin: 3%;
-    list-style: none;
-}
-ul, li {
-    display: flex;
-    justify-content: center;
-    margin-right: 5%;
-}
-li, a {
-    text-decoration: none;
-    color: black;
-}
-
 .footer ul {
     list-style: none;
     display: flex;
@@ -29,6 +15,10 @@ li, a {
 }
 
 .footer img {
-    width: 40%;
+    width: 50%;
     height: 100%;
+}
+.contact h1 {
+    display: flex;
+    justify-content: center;
 }
