@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { Button } from "react-bootstrap"
 function Home() {
   const img = 'src/images/Badface.png'
   return (
@@ -72,14 +72,12 @@ function Home() {
     <img src="src/images/badfaces5.jpg" alt="Bad Faces Live" />
     <img src="src/images/badfaces2.jpg" alt="Bad Faces Live" />
     <img src="src/images/badfaces7.jpg" alt="Barry Singing" />
-   
     </div>
-      
-     
   </div>
-  
   <div id="contact" className="contact">
     <h1>Contact Us</h1>
+    <p>To Contact the Bad Faces Please Click the Button Below or send an Email Directly to <a href="mailto:badfacesmusic@gmail.com">badfacesmusic@gmail.com</a></p>
+   <a href="mailto:badfacesmusic@gmail.com"><button >Click Me to Contact</button></a>
   </div>
     
         

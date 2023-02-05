@@ -102,32 +102,63 @@ body {
     display: flex;
     justify-content: center;
 }
+.contact a{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.contact p, a {
+  font-size: 150%;
+}
+.contact { 
+  display: grid;
+  justify-content: center;
+}
+button {
+  padding: 16px 32px;
+  background-color: rgb(50, 191, 238);
+  color: white;
+  border-radius: 1%;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  button {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
 
 .footer ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 5%;
-    background-color: pink;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2%;
+  background-color: pink;
 }
 
 .footer a {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 50%;
 }
 
 .footer img {
-    width: 60%;
-    height: auto;
+  width: 40%;
+  height: auto;
 }
 
 @media only screen and (max-width: 600px) {
-    .footer {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      height: 100vh;
-    }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
   }
+}
