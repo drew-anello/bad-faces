@@ -8,7 +8,11 @@ nav ul {
   }
 li, a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: larger;
     font-family:  "Rock Salt", cursive, Arial, sans-serif;;
+}
+nav {
+  background-color:navy;
+
 }

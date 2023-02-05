@@ -1,13 +1,16 @@
 body {
-    height: 100%;
-    width: 100%;
+     background-color: black;
+     color: white;
+    
+
 }
 
 .footer ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    padding: 15%;
+    padding: 5%;
+    background-color: pink;
 }
 
 .footer a {
@@ -17,6 +20,7 @@ body {
 .footer img {
     width: 50%;
     height: 100%;
+ 
 }
 .contact h1 {
     display: flex;
