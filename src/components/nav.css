@@ -14,5 +14,11 @@ li, a {
 }
 nav {
   background-color:navy;
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+ 
+  color: #fff;
+  padding: 10px;
 }
