@@ -1,4 +1,3 @@
-import { Button } from "react-bootstrap"
 function Home() {
   const img = 'src/images/Badface.png'
   return (
