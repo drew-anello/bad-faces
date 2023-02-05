@@ -4,11 +4,10 @@ function Home() {
 <div className="page">
   <div className="home" id="home">
       <img className="img" src={img}></img> 
-      <h1>Hey</h1>
   </div>
-
   <div id="about" className="about">
-            <p>Bad Faces is a band that creates a unique sound by blending delicate and rough elements. Their music tells an epic story in relatable language, evoking nostalgia while also pushing forward with fresh ideas. The band puts emphasis on powerful vocal delivery and the belief that harmony is not just a metaphor, but a driving force in their music.</p>
+    <h1>About the Bad Faces</h1>
+            <p>Bad Faces is a musical group that stands out from the crowd with their distinct sound. They seamlessly blend together soft, delicate tones with rough, edgy elements to create a truly one-of-a-kind musical experience. Their music tells epic stories in relatable language, stirring up feelings of nostalgia while still pushing the boundaries with fresh, innovative ideas. The band places a strong emphasis on powerful vocal delivery, believing that harmony is a key driving force behind their music. This focus on harmony creates a deep emotional connection with their audience and reinforces the band's unique musical style. Whether it's through the use of intricate harmonies or soaring vocal lines, Bad Faces continues to captivate listeners with their unforgettable sound.</p>
   </div>
   <div id="contact" className="contact">
     <h1>Contact Us</h1>
