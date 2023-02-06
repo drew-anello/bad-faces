@@ -1,9 +1,10 @@
+import { Button } from "react-bootstrap"
 function Home() {
   const img = 'src/images/Badface.png'
   return (
 <div className="page">
   <div className="home" id="home">
-      <img className="img" src={img}></img> 
+      <img className="img" src="https://i.imgur.com/Aub9OCk.png" />
   </div>
   <div id="about" className="about">
     <h1>About the Bad Faces</h1>
@@ -65,18 +66,18 @@ function Home() {
     /> 
     </div>
     <div className="mediaImages">
-    <img src="src/images/badfaces6.jpg" alt="Bad Faces Live" />
-     <img src="src/images/badfaces3.jpg" alt="Barry Singing" />
-    <img src="src/images/badfaces4.jpg" alt="Bad Faces Live" />
-    <img src="src/images/badfaces5.jpg" alt="Bad Faces Live" />
-    <img src="src/images/badfaces2.jpg" alt="Bad Faces Live" />
-    <img src="src/images/badfaces7.jpg" alt="Barry Singing" />
+    <img src="https://i.imgur.com/gU3CoAN.jpg" alt="Bad Faces Live" />
+     <img src="https://i.imgur.com/O9bO17H.jpg" alt="Bad Faces live" />
+    <img src="https://i.imgur.com/jOE5IDS.jpg" alt="Bad Faces Live" />
+    <img src="https://i.imgur.com/01A3kz6.jpg" alt="Bad Faces Live" />
+    <img src="https://i.imgur.com/ZUlWQvR.jpg" alt="Bad Faces Live" />
+    <img src="https://i.imgur.com/TtfxJJ7.jpg" alt="Barry Singing" />
     </div>
   </div>
   <div id="contact" className="contact">
     <h1>Contact Us</h1>
     <p>To Contact the Bad Faces Please Click the Button Below or send an Email Directly to <a href="mailto:badfacesmusic@gmail.com">badfacesmusic@gmail.com</a></p>
-   <a href="mailto:badfacesmusic@gmail.com"><button >Click Me to Contact</button></a>
+   <a href="mailto:badfacesmusic@gmail.com"><button >Click to Contact</button></a>
   </div>
     
         
